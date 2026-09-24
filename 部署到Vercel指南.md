@@ -11,6 +11,7 @@
 5. 输出目录填写 .vitepress/dist。
 6. 安装命令保持默认的 npm install。
 7. 点击 Deploy，等待构建完成。
+8. 仓库根目录的 vercel.json 已固化构建命令与输出目录，项目设置页里的同名项会被仓库配置覆盖，显示为默认的 dist 也不影响。
 
 ## 构建参数速查
 
@@ -19,6 +20,7 @@
 3. Output Directory: .vitepress/dist
 4. Install Command: npm install
 5. Node.js 版本: 18 及以上，使用 Vercel 默认即可
+6. 仓库内 vercel.json 等价固化了 Build Command 与 Output Directory，调整参数只需改仓库文件再推送
 
 ## 部署后验证
 
