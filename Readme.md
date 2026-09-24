@@ -4,6 +4,21 @@
 
 原仓库：https://github.com/liquidslr/system-design-notes
 
+# 核心功能
+
+1. 28 章完整中文正文与章节配图，共 392 张图。
+2. 本地全文搜索，快捷键 / 与 ⌘K。
+3. 深色浅色主题切换并在刷新后记忆偏好。
+4. 规范地址 /NN-slug/，带上一章下一章导航与标题锚点深链。
+5. 移动端自适应布局，汉堡菜单与折叠大纲。
+
+# 文档
+
+1. 中文翻译说明.md，翻译脚本的参数、流程与质量保障。
+2. 部署到Vercel指南.md，Vercel 导入步骤与构建参数速查。
+3. 站点检查报告.md，全站检查结论、已修复问题与改进建议。
+4. 站点开发维护手册.md，项目结构、路由规则、修改流程与内容红线。
+
 # 章节目录
 
 1. 第1章 - 从零扩展到数百万用户：[笔记](./系统设计笔记/01. Scaling/README.md)
@@ -47,7 +62,7 @@
 1. HTML 标签平衡校验：python3 tests/test_html_balance.py
 2. Vue 模板解析校验：node tests/test_vue_template_parse.mjs
 3. 构建产物死链校验：python3 tests/test_dist_links.py
-4. 翻译脚本单测：python3 -m pytest tests/ -q
+4. 全量单测与粘连回归：python3 -m pytest tests/ -q
 
 # 翻译工具
 
