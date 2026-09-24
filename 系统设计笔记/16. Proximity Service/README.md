@@ -237,7 +237,9 @@ AND (longitude BETWEEN :long - radius AND :long + radius);
 | 缓存键  | 缓存值 |
 |------------|------------|
 | `geohash`  | 该网格中的商家 ID 列表 |
-| `business_id` | 商家详情（名称、地址、评价等） |---
+| `business_id` | 商家详情（名称、地址、评价等） |
+
+---
 
 ## 第五步：部署策略与最终架构
 

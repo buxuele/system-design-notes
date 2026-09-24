@@ -36,7 +36,7 @@
  * [第28章 - 股票交易所](/28-stock-exchange/)
 
 
-# 附加资源
+## 附加资源
 
 ### 限流
 - [断路器算法](https://martinfowler.com/bliki/CircuitBreaker.html)

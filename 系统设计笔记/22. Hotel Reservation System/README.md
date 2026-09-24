@@ -208,7 +208,9 @@ AND date between ${startDate} and ${endDate}
 
 ```
 if (total_reserved + ${numberOfRoomsToReserve}) <= 110% * total_inventory
-```现在让我们对存储容量进行一些估算。
+```
+
+现在让我们对存储容量进行一些估算。
 - 我们有 5000 家酒店。
 - 每家酒店有 20 种房型。
 - 5000 * 20 * 2（年）* 365（天）= 7300 万行数据。

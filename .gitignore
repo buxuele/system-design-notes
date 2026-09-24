@@ -10,6 +10,9 @@ Thumbs.db
 __pycache__/
 *.pyc
 
+# 检查截图与审计报告，仅本地保留
+tests/站点截图/
+
 # 日志
 *.log
 translate.log
