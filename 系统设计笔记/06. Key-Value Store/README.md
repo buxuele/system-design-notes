@@ -149,9 +149,10 @@
 
 #### b. 临时故障
 - **松散仲裁（Sloppy Quorum）：** 使用健康节点临时维持操作。
-        <p align="center">
-        <img src="./images/sloppy-quorum.png"   alt="Sloppy Quorum" width="400">
-        </p>
+
+    <p align="center">
+    <img src="./images/sloppy-quorum.png"   alt="Sloppy Quorum" width="400">
+    </p>
 
     - 检测到故障后，系统需要部署特定机制以确保可用性
     - 系统不强制执行仲裁要求，而是在哈希环上选择前 W 个健康服务器进行写入，前 R 个健康服务器进行读取。
@@ -203,7 +204,9 @@
 
 
 ### 6. 处理数据中心宕机
-- 在多个数据中心之间复制数据，以确保在宕机期间的可用性。---
+- 在多个数据中心之间复制数据，以确保在宕机期间的可用性。
+
+---
 
 ## 写入与读取路径
 ### 1. 写入路径（基于 Cassandra 架构）
