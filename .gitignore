@@ -1,1 +1,57 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.vitepress/cache/
+.vitepress/dist/
+
+# 系统与缓存
 .DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# 检查截图与审计报告，仅本地保留
+tests/站点截图/
+
+# 日志
+*.log
+translate.log
+
+# 本地运维笔记，不随站点发布
+git_自动化笔记.md
+gg.sh
+
+# 环境与私密配置
+.env
+.env.local
+.env.*.local
+
+# 英文原版笔记，仅本地保留，不随中文仓库发布
+/01. Scaling/
+/02. Back Of the Envelope Estimation/
+/03. System Design Framework/
+/04. Rate Limiter/
+/05. Consistent Hashing/
+/06. Key-Value Store/
+/07. Unique-Id Generator/
+/08. URL Shortener/
+/09. Web Crawler/
+/10. Notification System/
+/11. News Feed System/
+/12. Chat System/
+/13. Search Autocomplete/
+/14. Youtube/
+/15. Google Drive/
+/16. Proximity Service/
+/17. Nearby Friends/
+/18. Google Maps/
+/19. Distributed Message Queue/
+/20. Metrics Monitoring and Alerting System/
+/21. Ad Click Event Aggregation/
+/22. Hotel Reservation System/
+/23. Distributed Email Service/
+/24. S3-like Object Storage/
+/25. Real-time Gaming Leaderboard/
+/26. Payment System/
+/27.  Digital Wallet/
+/28. Stock Exchange/
