@@ -4,6 +4,8 @@
 
 原仓库：https://github.com/liquidslr/system-design-notes
 
+本仓库为该原仓库的 fork，中文译文与站点配置都在 main 分支。
+
 # 核心功能
 
 1. 28 章完整中文正文与章节配图，共 392 张图。
